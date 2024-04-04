@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página</title>
+    <title>Mi Sitio Web</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <h1>Hola, Mundo!</h1>
-    <p>Este es un ejemplo de archivo HTML.</p>
+    <p>Se modifica el archivo html.</p>
+    <h2>Formulario Básico</h2>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
